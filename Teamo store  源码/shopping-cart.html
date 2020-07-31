@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping car</title>
+    <link rel="stylesheet" href="css/shopping-cart.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+</head>
+
+<body>
+
+<!--------------------------------------------------------------
+-------------------------header内样式  welcome  login   help--------
+--------------------------------------------------------------->
+<header>
+    <div class="welcome-help">
+        <div class="welcome">
+
+            Welcome to our online store!
+
+        </div>
+
+        <div class="header-login-help">
+            <a href="contact-us.html" >
+
+                Help
+
+            </a>
+            <span> | </span>
+
+            <a href="login.html">
+
+                Login
+
+            </a>
+        </div>
+    </div>
+</header>
+
+<!---------------------------------------------------------------------
+---------------首页的search查找以及teamologo  personal 部分---------------
+----------------------------------------------------------------------->
+<div class="logo-input-personal-shop">
+    <!--            标题下面的 teamo logo-->
+    <img  src="images/logo.png" alt="logo-img" class="logo"/>
+    <!--            search 输入框以及button点击提交按钮-->
+    <div class="search-box">
+        <label>
+            <input type="search" placeholder="Search here" class="input-search"/>
+        </label>
+        <button type="submit" value="Search"  class="button-submit">
+            <!--            搜索 矢量图标-->
+            <span class="iconfont">&#xe652;</span>
+        </button>
+    </div>
+
+    <!--         个人中心以及购物车 加粗-->
+    <div class="personal-shop-right">
+        <a class="personal" href="login.html" >
+            <!--个人中心   矢量图标-->
+            <span class="iconfont">&#xe614;</span>
+        </a>
+
+        <a class="shop-car" href="shopping-cart.html">
+            <!--购物车矢量图标  -->
+            <span class="iconfont">&#xe60c;</span>
+
+        </a>
+    </div>
+</div>
+
+<!-------------------------------------------------------------
+-------------------------nav-div 首页导航栏部分-------------------
+-------------------------------------------------------------->
+<div class="nav-div">
+    <nav>
+        <ul class="nav-div-ul">
+            <!-----------------------第一个all categories栏目内容------------------------------------->
+            <li class="allcategories-li"><a href="#">ALL CATEGORIES</a>
+                <!--                列表矢量图标-->
+                <span class="iconfont">&#xe602;</span>
+
+                <div>
+                    <ul>
+                        <li><a href="#">Hot Sale</a></li>
+
+                        <li><a href="#">Cacti</a></li>
+
+                        <li><a href="#">Palms</a></li>
+
+                        <li><a href="#">Ferns</a></li>
+
+                        <li><a href="#">Hanging plants</a></li>
+
+                        <li><a href="#">Variegated</a></li>
+                    </ul>
+                </div>
+
+            </li>
+            <!----------------------第二个home栏目内容-------------------->
+            <li class="home-li"><a href="#" class="nav-a">HOME</a>
+                <!--                下箭头矢量图标-->
+                <span class="iconfont">&#xe62c;</span>
+                <div>
+                    <ul>
+                        <li><a href="index.html">Home01</a></li>
+
+                        <li><a href="home02.html">Home02</a></li>
+                    </ul>
+                </div>
+            </li>
+            <!--------------------第三个shop栏目内容--------------------->
+            <li class="shop-li"><a href="#" class="nav-a">SHOP</a>
+                <!--                下箭头矢量图标-->
+                <span class="iconfont">&#xe62c;</span>
+                <div>
+                    <ul>
+                        <li><a href="shopping-cart.html">Shopping car</a></li>
+
+                        <li><a href="shopping-cart.html">Shop list</a></li>
+                    </ul>
+                </div>
+            </li>
+            <!----------------------第四个page栏目内容---------------------->
+            <li class="page-li"><a href="#" class="nav-a">PAGE</a>
+                <!--                下箭头矢量图标-->
+                <span class="iconfont">&#xe62c;</span>
+                <div>
+                    <ul>
+                        <li><a href="login.html">Login</a></li>
+
+                        <li><a href="contact-us.html">Contact us</a></li>
+
+                        <li><a href="video.html"> Video</a></li>
+
+                        <li><a href="404page.html">404</a></li>
+                    </ul>
+                </div>
+            </li>
+            <!----------------------- 第五个contact us栏目----------------------->
+            <li class="contact-li"><a href="contact-us.html" class="nav-a">CONTACT US</a></li>
+            <!-------------------------第六个about栏目----------------------->
+            <li class="about-li"><a href="about.html" class="nav-a">ABOUT</a>
+
+            </li>
+        </ul>
+    </nav>
+</div>
+
+<!---------------------------------------------------------------------------
+---------------------------shopping----------------------------------------
+----------------------------------------------------------------------------->
+
+<div class="shoppping-cart-div">
+    <span class="iconfont">&#xe708;</span>
+    <p>The shopping cart was still empty. <br>
+    <a href="login.html" class="cart-login-a">Login</a> now and check out your previous items </p>
+    <a href="index.html" class="cart-index-a">Go Home</a>
+
+</div>
+
+<!---------------------------------------------------------------------------
+---------------------------结尾页脚部分 footer----------------------------------------
+----------------------------------------------------------------------------->
+
+<footer class="footer-box">
+
+    <div class="div-left">
+        <strong>QUICK  MENU</strong>
+        <ul>
+            <li><a href="#">New arrivals</a></li>
+            <li><a href="#">Life style</a></li>
+            <li><a href="#">Cacti</a></li>
+            <li><a href="#">Palms</a></li>
+            <li><a href="#">Ferns</a></li>
+        </ul>
+    </div>
+
+
+    <div class="div-center">
+        <strong>NEWSLETTER</strong>
+        <ul>
+            <li class="signup-li">Sign up for our free video course and<br>       urban garden inspiration</li>
+            <li><input type="search" placeholder="You email letter"></li>
+            <li><button type="submit" >SUBSCRIBE</button></li>
+            <li>
+                <a href="#" title="QQ"><span class="iconfont">&#xe651;</span></a>
+                <a href="#" title="wechat"><span class="iconfont">&#xe63e;</span></a>
+                <a href="#" title="telegram"><span class="iconfont">&#xf246;</span></a>
+            </li>
+
+        </ul>
+    </div>
+
+
+    <div class="div-right">
+        <strong>INFORMATION</strong>
+        <ul>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Track Order</a></li>
+            <li><a href="#">Delivery</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Return</a></li>
+        </ul>
+    </div>
+
+    <div class="PureKit">
+        Copyright © 2020.PureKit.lnc All rights reserved.
+    </div>
+</footer>
+
+</body>
+</html>
